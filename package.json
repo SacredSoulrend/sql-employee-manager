@@ -1,0 +1,17 @@
+{
+  "name": "sql-employee-tracker",
+  "version": "1.0.0",
+  "description": "An employee tracker using SQL and inquirer.",
+  "main": "server.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "mysql2": "^3.6.1",
+    "node": "^20.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js"
+  }
+}
