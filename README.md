@@ -18,23 +18,23 @@ To use the Employee Tracker, follow these steps:
 
 2. Install the required dependencies: npm install node, mysql2, inquirer, dotenv.
 
-3. Login to your mysql using the command line/bash
+3. Login to your mysql using the command line/bash<br>
 In bash: mysql -u [username] -p;
 
-3. Set up your database by creating a .env file in the project root directory. Add your MySQL database configuration as follows:
+4. Set up your database by creating a .env file in the project root directory. Add your MySQL database configuration as follows:<br>
 
-DB_HOST=localhost
-DB_USER=your-database-username
-DB_PASSWORD=your-database-password
-DB_DATABASE=company_db
+DB_HOST=localhost<br>
+DB_USER=your-database-username<br>
+DB_PASSWORD=your-database-password<br>
+DB_DATABASE=company_db<br>
 
-4. Create the necessary database schema using the provided SQL files (schema.sql and seeds.sql) in the "db" directory.
+5. Create the necessary database schema using the provided SQL files (schema.sql and seeds.sql) in the "db" directory.<br>
 In bash: mysql -u your-database-username -p your-database-name < db/schema.sql
 
-5. Seed your database with sample data.
+6. Seed your database with sample data.<br>
 In bash: mysql -u your-database-username -p your-database-name < db/seeds.sql
 
-6. Start the application.
+7. Start the application.<br>
 In bash: node server.js
 
 ## Usage
