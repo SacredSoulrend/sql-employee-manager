@@ -38,3 +38,44 @@ function displayMainMenu() {
         ],
       },
     ])
+    .then((answers) => {
+      switch (answers.action) {
+        case "View all departments":
+          getAllDepartments((err, results) => {
+            if (err) {
+              console.error("Error viewing departments:", err);
+              return;
+            }
+
+            console.table(results);
+
+            displayMainMenu();
+          });
+          break;
+
+        case "View all roles":
+          getAllRoles((err, results) => {
+            if (err) {
+              console.error("Error viewing roles:", err);
+              return;
+            }
+
+            console.table(results);
+
+            displayMainMenu();
+          });
+          break;
+
+        case "View all employees":
+          getAllEmployees((err, results) => {
+            if (err) {
+              console.error("Error viewing employees:", err);
+              return;
+            }
+
+            console.table(results);
+
+            displayMainMenu();
+          });
+          break;
+
