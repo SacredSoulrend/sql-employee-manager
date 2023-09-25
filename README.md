@@ -50,11 +50,15 @@ https://drive.google.com/file/d/1Bb33dbBkFjtgAjop-dUYjuTiirsWaxbx/view
 MIT License
 
 ## Contributing
-
+None
 
 ## Tests
-
+None
 
 ## Questions
 For additional questions, contact .
 GitHub: [SacredSoulrend](https://github.com/SacredSoulrend)
+
+## Resources
+mysql2 functions: https://www.npmjs.com/package/mysql2?activeTab=readme<br>
+inquirer functions: https://www.npmjs.com/package/inquirer<br>
